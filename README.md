@@ -17,11 +17,10 @@ I. A brief of Machine Learning & Deep Learning
   - Reinforcement Learning: The model learns through trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties.
   
 - Applications:
-
-* Classification: Assigning labels to input data.
-* Regression: Predicting numerical values.
-* Clustering: Identifying inherent patterns or groups in data.
-* Recommendation Systems: Recommending items based on user behavior.
+   - Classification: Assigning labels to input data.
+   - Regression: Predicting numerical values.
+   - Clustering: Identifying inherent patterns or groups in data.
+   - Recommendation Systems: Recommending items based on user behavior.
   
 - Algorithms:
 
@@ -30,20 +29,20 @@ Common algorithms include linear regression, decision trees, support vector mach
 2. Deep Learning (DL):
 - Definition: Deep learning is a subset of machine learning that involves neural networks with multiple layers (deep neural networks). These networks are capable of learning intricate hierarchical representations from data.
 - Neural Networks:
-* Artificial Neurons: Mimic the basic functioning of biological neurons.
-* Layers: Input layer, hidden layers, and output layer.
-* Deep Networks: Multiple hidden layers enable the extraction of complex features.
+   - Artificial Neurons: Mimic the basic functioning of biological neurons.
+   - Layers: Input layer, hidden layers, and output layer.
+   - Deep Networks: Multiple hidden layers enable the extraction of complex features.
   
 - Types of DL Architectures:
 
-* Feedforward Neural Networks: Information flows in one direction.
-* Recurrent Neural Networks (RNN): Suitable for sequence data due to recurrent connections.
-* Convolutional Neural Networks (CNN): Effective for image and spatial data due to convolutional layers.
+   - Feedforward Neural Networks: Information flows in one direction.
+   - Recurrent Neural Networks (RNN): Suitable for sequence data due to recurrent connections.
+   - Convolutional Neural Networks (CNN): Effective for image and spatial data due to convolutional layers.
 - Applications:
 
-Image and Speech Recognition: Achieving state-of-the-art results in tasks like image classification and speech recognition.
-Natural Language Processing (NLP): Applications in text generation, sentiment analysis, and language translation.
-Generative Models: Creating new data instances, as seen in generative adversarial networks (GANs).
+   - Image and Speech Recognition: Achieving state-of-the-art results in tasks like image classification and speech recognition.
+   - Natural Language Processing (NLP): Applications in text generation, sentiment analysis, and language translation.
+   - Generative Models: Creating new data instances, as seen in generative adversarial networks (GANs).
 
 - Training:
 
