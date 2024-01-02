@@ -5,7 +5,51 @@ Nguyễn Tiến Thành - 20215243
 
 Concept of Machine Learning & Deep Learning algorithms
 
-I. Type of Machine Learning algorithms
+I. A brief of Machine Learning & Deep Learning
+
+1. Machine Learning (ML):
+   
+- Definition: Machine learning is a branch of AI that enables computers to learn from data and improve their performance on a task over time without being explicitly programmed.
+
+- Types of ML:
+* Supervised Learning: The algorithm is trained on a labeled dataset, where the input data is paired with corresponding output labels. The model learns to map inputs to outputs.
+* Unsupervised Learning: The algorithm is given unlabeled data and must find patterns or structure on its own.
+* Reinforcement Learning: The model learns through trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties.
+  
+- Applications:
+
+* Classification: Assigning labels to input data.
+* Regression: Predicting numerical values.
+* Clustering: Identifying inherent patterns or groups in data.
+* Recommendation Systems: Recommending items based on user behavior.
+  
+- Algorithms:
+
+Common algorithms include linear regression, decision trees, support vector machines, k-nearest neighbors, and more.
+
+2. Deep Learning (DL):
+- Definition: Deep learning is a subset of machine learning that involves neural networks with multiple layers (deep neural networks). These networks are capable of learning intricate hierarchical representations from data.
+- Neural Networks:
+* Artificial Neurons: Mimic the basic functioning of biological neurons.
+* Layers: Input layer, hidden layers, and output layer.
+* Deep Networks: Multiple hidden layers enable the extraction of complex features.
+  
+- Types of DL Architectures:
+
+* Feedforward Neural Networks: Information flows in one direction.
+* Recurrent Neural Networks (RNN): Suitable for sequence data due to recurrent connections.
+* Convolutional Neural Networks (CNN): Effective for image and spatial data due to convolutional layers.
+- Applications:
+
+Image and Speech Recognition: Achieving state-of-the-art results in tasks like image classification and speech recognition.
+Natural Language Processing (NLP): Applications in text generation, sentiment analysis, and language translation.
+Generative Models: Creating new data instances, as seen in generative adversarial networks (GANs).
+
+- Training:
+
+Training deep networks often involves the use of large datasets and powerful computational resources
+
+II. Type of Machine Learning algorithms
 
 1. Supervised learning
 In supervised learning, the machine is taught by example. The operator provides the machine learning algorithm with a known dataset that includes desired inputs and outputs, and the algorithm must find a method to determine how to arrive at those inputs and outputs. While the operator knows the correct answers to the problem, the algorithm identifies patterns in data, learns from observations and makes predictions. The algorithm makes predictions and is corrected by the operator – and this process continues until the algorithm achieves a high level of accuracy/performance.
