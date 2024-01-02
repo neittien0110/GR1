@@ -12,9 +12,9 @@ I. A brief of Machine Learning & Deep Learning
 - Definition: Machine learning is a branch of AI that enables computers to learn from data and improve their performance on a task over time without being explicitly programmed.
 
 - Types of ML:
-* Supervised Learning: The algorithm is trained on a labeled dataset, where the input data is paired with corresponding output labels. The model learns to map inputs to outputs.
-* Unsupervised Learning: The algorithm is given unlabeled data and must find patterns or structure on its own.
-* Reinforcement Learning: The model learns through trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties.
+  - Supervised Learning: The algorithm is trained on a labeled dataset, where the input data is paired with corresponding output labels. The model learns to map inputs to outputs.
+  - Unsupervised Learning: The algorithm is given unlabeled data and must find patterns or structure on its own.
+  - Reinforcement Learning: The model learns through trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties.
   
 - Applications:
 
