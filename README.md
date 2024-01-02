@@ -22,9 +22,7 @@ I. A brief of Machine Learning & Deep Learning
    - Clustering: Identifying inherent patterns or groups in data.
    - Recommendation Systems: Recommending items based on user behavior.
   
-- Algorithms:
-
-Common algorithms include linear regression, decision trees, support vector machines, k-nearest neighbors, and more.
+- Algorithms: Common algorithms include linear regression, decision trees, support vector machines, k-nearest neighbors, and more.
 
 2. Deep Learning (DL):
 - Definition: Deep learning is a subset of machine learning that involves neural networks with multiple layers (deep neural networks). These networks are capable of learning intricate hierarchical representations from data.
@@ -44,9 +42,7 @@ Common algorithms include linear regression, decision trees, support vector mach
    - Natural Language Processing (NLP): Applications in text generation, sentiment analysis, and language translation.
    - Generative Models: Creating new data instances, as seen in generative adversarial networks (GANs).
 
-- Training:
-
-Training deep networks often involves the use of large datasets and powerful computational resources
+- Training: Training deep networks often involves the use of large datasets and powerful computational resources
 
 II. Type of Machine Learning algorithms
 
@@ -81,3 +77,5 @@ Under the umbrella of unsupervised learning, fall:
 4. Reinforcement learning
    
 Reinforcement learning focuses on regimented learning processes, where a machine learning algorithm is provided with a set of actions, parameters and end values. By defining the rules, the machine learning algorithm then tries to explore different options and possibilities, monitoring and evaluating each result to determine which one is optimal. Reinforcement learning teaches the machine trial and error. It learns from past experiences and begins to adapt its approach in response to the situation to achieve the best possible result.
+
+
