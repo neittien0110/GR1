@@ -1,4 +1,4 @@
-# GR1
+![image](https://github.com/thanhite7/GR1/assets/96159427/a2323b57-02bd-4505-9959-ace636203e7b)# GR1
 Báo Cáo Cuối Kì
 
 Nguyễn Tiến Thành - 20215243
@@ -142,14 +142,54 @@ We are given a data set of items, with certain features, and values for these fe
 
 The algorithm will categorize the items into k groups or clusters of similarity. To calculate that similarity, we will use the Euclidean distance as a measurement.
 
-The algorithm works as follows:  
-- First, we randomly initialize k points, called means or cluster centroids.
-- We categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that cluster so far.
-- We repeat the process for a given number of iterations and at the end, we have our clusters.
+- The algorithm works as follows:  
+   - First, we randomly initialize k points, called means or cluster centroids.
+     
+   - We categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that cluster so far.
+     
+   - We repeat the process for a given number of iterations and at the end, we have our clusters.
 
 The “points” mentioned above are called means because they are the mean values of the items categorized in them. To initialize these means, we have a lot of options. An intuitive method is to initialize the means at random items in the data set. Another method is to initialize the means at random values between the boundaries of the data set.
 
-   ![image](https://github.com/thanhite7/GR1/assets/96159427/1fffe974-e097-40ae-9564-012f7f4caab0)
+   ![image](https://github.com/thanhite7/GR1/assets/96159427/9e8313e7-2fe1-4d74-9dcd-9ba61c6abd79)
+- Advantages:
+  
+   - Simplicity and Speed: K-means is computationally efficient and relatively simple to implement, making it suitable for large datasets and quick exploratory data analysis.
+     
+   - Scalability: The algorithm scales well with the number of data points, making it applicable to datasets with a large number of observations.
+     
+   - Versatility: K-means can be applied to various types of data, and it doesn't assume any specific distribution of the features.
+     
+   - Easy Interpretation: The results of K-means are easy to interpret, as each data point is assigned to a specific cluster, and the cluster centroids provide a representative summary of the cluster.
+     
+   - Applicability to Numerical Data: K-means is well-suited for numerical data and works effectively when the clusters have a spherical shape.
+- Disadvantages:
+  
+   - Sensitivity to Initial Centroids: The algorithm's performance can be sensitive to the initial placement of centroids, potentially leading to suboptimal solutions.
+     
+   - Assumption of Spherical Clusters: K-means assumes that clusters are spherical and equally sized, which may not hold true for datasets with non-spherical or unevenly sized clusters.
+     
+   - Impact of Outliers: Outliers can significantly affect the centroids and, consequently, the cluster assignments in K-means. The algorithm is sensitive to anomalies in the data.
+     
+   - Requires Predefined Number of Clusters (K): The user must specify the number of clusters before running the algorithm, and choosing an inappropriate value for K can result in suboptimal clustering.
+     
+   - Limited to Euclidean Distance: K-means relies on Euclidean distance, which might not be suitable for datasets with features of different scales or non-numerical data.
+
+- Applications:
+   - Customer Segmentation: Businesses use K-means to group customers based on purchasing behavior, helping in targeted marketing strategies.
+     
+   - Image Compression: In image processing, K-means can be used to compress images by reducing the number of colors while preserving key features.
+     
+   - Anomaly Detection: K-means can identify unusual patterns or outliers in data, making it useful for anomaly detection in various domains, such as fraud detection.
+     
+   - Document Classification: Text documents can be clustered based on their content, aiding in document classification or organizing large document collections.
+     
+   - Genomic Data Analysis: K-means is employed in bioinformatics to analyze gene expression data, identifying patterns and grouping genes with similar expression profiles.
+     
+   - Spatial Data Analysis: Geographic data, such as the clustering of geographical regions based on certain features, can be performed using K-means.
+
+
+
 
 
 
