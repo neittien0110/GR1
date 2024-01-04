@@ -85,9 +85,9 @@ III. Some common and popular machine learning algorithms
 
 - Distance Metrics Used in KNN Algorithm
 As we know that the KNN algorithm helps us identify the nearest points or the groups for a query point. But to determine the closest groups or the nearest points for a query point we need some metric. For this purpose, we use below distance metrics:
-•	Euclidean Distance
-•	Manhattan Distance
-•	Minkowski Distance
+  - Euclidean Distance
+  - Manhattan Distance
+  - Minkowski Distance
 
    a.	Euclidean Distance
 
@@ -95,13 +95,11 @@ This is nothing but the cartesian distance between the two points which are in t
 
 ![image](https://github.com/thanhite7/GR1/assets/96159427/c920f9d0-5092-4515-b32a-bb528a8b4f46)
 
- 
    b.	Manhattan Distance
 This distance metric is generally used when we are interested in the total distance traveled by the object instead of the displacement. This metric is calculated by summing the absolute difference between the coordinates of the points in n-dimensions.
 
 ![image](https://github.com/thanhite7/GR1/assets/96159427/1611ae0c-9755-49dd-92e5-9ce57ecbe2f8)
 
- 
    c.	Minkowski Distance
 We can say that the Euclidean, as well as the Manhattan distance, are special cases of the Minkowski distance.
 
