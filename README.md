@@ -79,7 +79,7 @@ Reinforcement learning focuses on regimented learning processes, where a machine
 
 III. Some common and popular machine learning algorithms
 
-1.K-Nearest Neighbour
+1. K-Nearest Neighbour
 
 - Defination: K-Nearest Neighbours is one of the most basic yet essential classification algorithms in Machine Learning. It belongs to the supervised learning domain and finds intense application in pattern recognition, data mining, and intrusion detection. It is widely disposable in real-life scenarios since it is non-parametric, meaning, it does not make any underlying assumptions about the distribution of data (as opposed to other algorithms such as GMM, which assume a Gaussian distribution of the given data). We are given some prior data (also called training data), which classifies coordinates into groups identified by an attribute.
 
@@ -95,11 +95,13 @@ This is nothing but the cartesian distance between the two points which are in t
 
 ![image](https://github.com/thanhite7/GR1/assets/96159427/c920f9d0-5092-4515-b32a-bb528a8b4f46)
 
+
    b.	Manhattan Distance
    
 This distance metric is generally used when we are interested in the total distance traveled by the object instead of the displacement. This metric is calculated by summing the absolute difference between the coordinates of the points in n-dimensions.
 
 ![image](https://github.com/thanhite7/GR1/assets/96159427/1611ae0c-9755-49dd-92e5-9ce57ecbe2f8)
+
 
    c.	Minkowski Distance
    
