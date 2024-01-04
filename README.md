@@ -134,3 +134,21 @@ From the formula above we can say that when p = 2 then it is the same as the for
    - Curse of Dimensionality – There is a term known as the peaking phenomenon according to this the KNN algorithm is affected by the curse of dimensionality which implies the algorithm faces a hard time classifying the data points properly when the dimensionality is too high.
 
    - Prone to Overfitting – As the algorithm is affected due to the curse of dimensionality it is prone to the problem of overfitting as well. Hence generally feature selection as well as dimensionality reduction techniques are applied to deal with this problem.
+     
+2. K-mean Clustering
+   - Definition: K-means clustering is a partitioning technique in unsupervised machine learning that aims to group similar data points into K clusters.
+     
+We are given a data set of items, with certain features, and values for these features (like a vector). The task is to categorize those items into groups. To achieve this, we will use the K-means algorithm; an unsupervised learning algorithm. ‘K’ in the name of the algorithm represents the number of groups/clusters we want to classify our items into.
+
+The algorithm will categorize the items into k groups or clusters of similarity. To calculate that similarity, we will use the Euclidean distance as a measurement.
+
+The algorithm works as follows:  
+- First, we randomly initialize k points, called means or cluster centroids.
+- We categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that cluster so far.
+- We repeat the process for a given number of iterations and at the end, we have our clusters.
+
+The “points” mentioned above are called means because they are the mean values of the items categorized in them. To initialize these means, we have a lot of options. An intuitive method is to initialize the means at random items in the data set. Another method is to initialize the means at random values between the boundaries of the data set.
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/2bd6b0ed-5695-4a65-9829-f66d0a030e9f)
+
+
