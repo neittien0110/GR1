@@ -96,17 +96,18 @@ This is nothing but the cartesian distance between the two points which are in t
 ![image](https://github.com/thanhite7/GR1/assets/96159427/c920f9d0-5092-4515-b32a-bb528a8b4f46)
 
    b.	Manhattan Distance
+   
 This distance metric is generally used when we are interested in the total distance traveled by the object instead of the displacement. This metric is calculated by summing the absolute difference between the coordinates of the points in n-dimensions.
 
 ![image](https://github.com/thanhite7/GR1/assets/96159427/1611ae0c-9755-49dd-92e5-9ce57ecbe2f8)
 
    c.	Minkowski Distance
+   
 We can say that the Euclidean, as well as the Manhattan distance, are special cases of the Minkowski distance.
 
 ![image](https://github.com/thanhite7/GR1/assets/96159427/36962a0f-f973-43ac-be87-f15c19570346)
 
-From the formula above we can say that when p = 2 then it is the same as the formula for the Euclidean distance and when p = 1 then we obtain the formula for the Manhattan distance.
-The above-discussed metrics are most common while dealing with a Machine Learning problem but there are other distance metrics as well like Hamming Distance which come in handy while dealing with problems that require overlapping comparisons between two vectors whose contents can be boolean as well as string values.
+From the formula above we can say that when p = 2 then it is the same as the formula for the Euclidean distance and when p = 1 then we obtain the formula for the Manhattan distance. The above-discussed metrics are most common while dealing with a Machine Learning problem but there are other distance metrics as well like Hamming Distance which come in handy while dealing with problems that require overlapping comparisons between two vectors whose contents can be boolean as well as string values.
 
 
 - Applications of the KNN Algorithm:
