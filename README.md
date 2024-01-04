@@ -1,4 +1,4 @@
-![image](https://github.com/thanhite7/GR1/assets/96159427/a2323b57-02bd-4505-9959-ace636203e7b)# GR1
+# GR1
 Báo Cáo Cuối Kì
 
 Nguyễn Tiến Thành - 20215243
