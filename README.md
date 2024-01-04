@@ -85,8 +85,11 @@ III. Some common and popular machine learning algorithms
 
 - Distance Metrics Used in KNN Algorithm
 As we know that the KNN algorithm helps us identify the nearest points or the groups for a query point. But to determine the closest groups or the nearest points for a query point we need some metric. For this purpose, we use below distance metrics:
+
   - Euclidean Distance
+    
   - Manhattan Distance
+    
   - Minkowski Distance
 
    a.	Euclidean Distance
@@ -182,11 +185,25 @@ The “points” mentioned above are called means because they are the mean valu
      
    - Anomaly Detection: K-means can identify unusual patterns or outliers in data, making it useful for anomaly detection in various domains, such as fraud detection.
      
-   - Document Classification: Text documents can be clustered based on their content, aiding in document classification or organizing large document collections.
+3. Decision Tree
+   
+- Definition: Random forest is a commonly-used machine learning algorithm trademarked by Leo Breiman and Adele Cutler, which combines the output of multiple decision trees to reach a single result. Its ease of use and flexibility have fueled its adoption, as it handles both classification and regression problems.
+
+- Decision Tree Terminologies:
+
+   - Root Node: It is the topmost node in the tree,  which represents the complete dataset. It is the starting point of the decision-making process.
+   - Decision/Internal Node: A node that symbolizes a choice regarding an input feature. Branching off of internal nodes connects them to leaf nodes or other internal nodes.
+   - Leaf/Terminal Node: A node without any child nodes that indicates a class label or a numerical value.
+   - Splitting: The process of splitting a node into two or more sub-nodes using a split criterion and a selected feature.
+   - Branch/Sub-Tree: A subsection of the decision tree starts at an internal node and ends at the leaf nodes.
+   - Parent Node: The node that divides into one or more child nodes.
+   - Child Node: The nodes that emerge when a parent node is split.
      
-   - Genomic Data Analysis: K-means is employed in bioinformatics to analyze gene expression data, identifying patterns and grouping genes with similar expression profiles.
-     
-   - Spatial Data Analysis: Geographic data, such as the clustering of geographical regions based on certain features, can be performed using K-means.
+![image](https://github.com/thanhite7/GR1/assets/96159427/fa70f8c7-7cfc-4cd0-bc71-11a4539acf84)
+
+
+
+
 
 
 
