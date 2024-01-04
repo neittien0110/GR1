@@ -149,6 +149,7 @@ The algorithm works as follows:
 
 The “points” mentioned above are called means because they are the mean values of the items categorized in them. To initialize these means, we have a lot of options. An intuitive method is to initialize the means at random items in the data set. Another method is to initialize the means at random values between the boundaries of the data set.
 
-![image](https://github.com/thanhite7/GR1/assets/96159427/2bd6b0ed-5695-4a65-9829-f66d0a030e9f)
+   ![image](https://github.com/thanhite7/GR1/assets/96159427/1fffe974-e097-40ae-9564-012f7f4caab0)
+
 
 
