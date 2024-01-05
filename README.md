@@ -282,8 +282,8 @@ Step-5: Recursively make new decision trees using the subsets of the dataset cre
  
 IV. Basic Deep Learning algorithms
 
-1. Artificial Neural Networks
-2. 
+1. Artificial Neural Networks (ANN)
+
 Artificial Neural Networks contain artificial neurons which are called units. These units are arranged in a series of layers that together constitute the whole Artificial Neural Network in a system. A layer can have only a dozen units or millions of units as this depends on how the complex neural networks will be required to learn the hidden patterns in the dataset.
 
 Commonly, Artificial Neural Network has an input layer, an output layer as well as hidden layers. The input layer receives data from the outside world which the neural network needs to analyze or learn about. Then this data passes through one or multiple hidden layers that transform the input into data that is valuable for the output layer. Finally, the output layer provides an output in the form of a response of the Artificial Neural Networks to input data provided. 
@@ -337,13 +337,55 @@ Artificial Neural Networks (ANNs) have several advantages and disadvantages.
 
 Applications of Artificial Neural Networks
 
-1.	Social Media: Artificial Neural Networks are used heavily in Social Media. For example, let’s take the ‘People you may know’ feature on Facebook that suggests people that you might know in real life so that you can send them friend requests. Well, this magical effect is achieved by using Artificial Neural Networks that analyze your profile, your interests, your current friends, and also their friends and various other factors to calculate the people you might potentially know. Another common application of Machine Learning in social media is facial recognition. This is done by finding around 100 reference points on the person’s face and then matching them with those already available in the database using convolutional neural networks. 
+1.	Social Media: Artificial Neural Networks are used heavily in Social Media. This is done by finding around 100 reference points on the person’s face and then matching them with those already available in the database using convolutional neural networks. 
 
 
-2.	Marketing and Sales: When you log onto E-commerce sites like Amazon and Flipkart, they will recommend your products to buy based on your previous browsing history. Similarly, suppose you love Pasta, then Zomato, Swiggy, etc. will show you restaurant recommendations based on your tastes and previous order history. This is true across all new-age marketing segments like Book sites, Movie services, Hospitality sites, etc. and it is done by implementing personalized marketing. This uses Artificial Neural Networks to identify the customer likes, dislikes, previous shopping history, etc., and then tailor the marketing campaigns accordingly. 
+2.	Marketing and Sales:  This uses Artificial Neural Networks to identify the customer likes, dislikes, previous shopping history, etc., and then tailor the marketing campaigns accordingly. 
 
 3.	Healthcare: Artificial Neural Networks are used in Oncology to train algorithms that can identify cancerous tissue at the microscopic level at the same accuracy as trained physicians. Various rare diseases may manifest in physical characteristics and can be identified in their premature stages by using Facial Analysis on the patient photos. So the full-scale implementation of Artificial Neural Networks in the healthcare environment can only enhance the diagnostic abilities of medical experts and ultimately lead to the overall improvement in the quality of medical care all over the world. 
 
 4.	Personal Assistants: These are personal assistants and an example of speech recognition that uses Natural Language Processing to interact with the users and formulate a response accordingly. Natural Language Processing uses artificial neural networks that are made to handle many tasks of these personal assistants such as managing the language syntax, semantics, correct speech, the conversation that is going on, etc.
 
-2. RNN
+2. Recurrent Neural Network (RNN)
+
+Recurrent Neural Network(RNN) is a type of Neural Network where the output from the previous step is fed as input to the current step. In traditional neural networks, all the inputs and outputs are independent of each other. Still, in cases when it is required to predict the next word of a sentence, the previous words are required and hence there is a need to remember the previous words. Thus RNN came into existence, which solved this issue with the help of a Hidden Layer. The main and most important feature of RNN is its Hidden state, which remembers some information about a sequence. The state is also referred to as Memory State since it remembers the previous input to the network. It uses the same parameters for each input as it performs the same task on all the inputs or hidden layers to produce the output. This reduces the complexity of parameters, unlike other neural networks.
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/69c3c9b2-4d24-4ae1-b540-37cd6fdcb89d)
+
+Information moves from the input layer to the output layer – if any hidden layers are present – unidirectionally in a feedforward neural network. These networks are appropriate for image classification tasks, for example, where input and output are independent. Nevertheless, their inability to retain previous inputs automatically renders them less useful for sequential data analysis.
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/3589f6ec-4e1f-4579-9a6b-6d96a153acda)
+
+- Recurrent Neuron and RNN Unfolding
+  
+The fundamental processing unit in a Recurrent Neural Network (RNN) is a Recurrent Unit, which is not explicitly called a “Recurrent Neuron.” This unit has the unique ability to maintain a hidden state, allowing the network to capture sequential dependencies by remembering previous inputs while processing. Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) versions improve the RNN’s ability to handle long-term dependencies.
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/ccfde207-381a-4dfe-8223-25ef4e9be9d4)
+![image](https://github.com/thanhite7/GR1/assets/96159427/f57eeea3-cb30-48d3-b8db-6a5068ad073f)
+
+- Types Of RNN:
+  
+There are four types of RNNs based on the number of inputs and outputs in the network.
+
+   - One to One
+
+     ![image](https://github.com/thanhite7/GR1/assets/96159427/fa4fa180-54b0-4bfb-a3d3-b4eab7af03e5)
+
+      
+   - One to Many
+
+     ![image](https://github.com/thanhite7/GR1/assets/96159427/46ec8fa7-cb71-4647-9c0b-15eaba3d99d3)
+
+     
+   - Many to One
+
+     ![image](https://github.com/thanhite7/GR1/assets/96159427/8a7b28b7-210e-4906-adb6-132991703f62)
+
+   - Many to Many
+
+     ![image](https://github.com/thanhite7/GR1/assets/96159427/fda71896-95e1-4f7e-8ba1-66bb3d06d416)
+
+
+
+
+
