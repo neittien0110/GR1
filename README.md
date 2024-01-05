@@ -301,10 +301,15 @@ The structures and operations of human neurons serve as the basis for artificial
 ![image](https://github.com/thanhite7/GR1/assets/96159427/8c069a21-5d6d-4368-9519-a125b8db8998)
 
 - Types of Artificial Neural Networks
+  
    •	Feedforward Neural Network
+
    •	Convolutional Neural Network
+  
    •	Modular Neural Network
+  
    •	Radial basis function Neural Network
+  
    •	Recurrent Neural Network:
 
 Artificial Neural Networks (ANNs) have several advantages and disadvantages. 
@@ -337,14 +342,15 @@ Artificial Neural Networks (ANNs) have several advantages and disadvantages.
 
 Applications of Artificial Neural Networks
 
-1.	Social Media: Artificial Neural Networks are used heavily in Social Media. This is done by finding around 100 reference points on the person’s face and then matching them with those already available in the database using convolutional neural networks. 
+- Social Media: Artificial Neural Networks are used heavily in Social Media. This is done by finding around 100 reference points on the person’s face and then matching them with those already available in the database using convolutional neural networks. 
 
 
-2.	Marketing and Sales:  This uses Artificial Neural Networks to identify the customer likes, dislikes, previous shopping history, etc., and then tailor the marketing campaigns accordingly. 
+- Marketing and Sales:  This uses Artificial Neural Networks to identify the customer likes, dislikes, previous shopping history, etc., and then tailor the marketing campaigns accordingly. 
 
-3.	Healthcare: Artificial Neural Networks are used in Oncology to train algorithms that can identify cancerous tissue at the microscopic level at the same accuracy as trained physicians. Various rare diseases may manifest in physical characteristics and can be identified in their premature stages by using Facial Analysis on the patient photos. So the full-scale implementation of Artificial Neural Networks in the healthcare environment can only enhance the diagnostic abilities of medical experts and ultimately lead to the overall improvement in the quality of medical care all over the world. 
+- Healthcare: Artificial Neural Networks are used in Oncology to train algorithms that can identify cancerous tissue at the microscopic level at the same accuracy as trained physicians. Various rare diseases may manifest in physical characteristics and can be identified in their premature stages by using Facial Analysis on the patient photos. So the full-scale implementation of Artificial Neural Networks in the healthcare environment can only enhance the diagnostic abilities of medical experts and ultimately lead to the overall improvement in the quality of medical care all over the world. 
 
-4.	Personal Assistants: These are personal assistants and an example of speech recognition that uses Natural Language Processing to interact with the users and formulate a response accordingly. Natural Language Processing uses artificial neural networks that are made to handle many tasks of these personal assistants such as managing the language syntax, semantics, correct speech, the conversation that is going on, etc.
+- Personal Assistants: These are personal assistants and an example of speech recognition that uses Natural Language Processing to interact with the users and formulate a response accordingly. Natural Language Processing uses artificial neural networks that are made to handle many tasks of these personal assistants such as managing the language syntax, semantics, correct speech, the conversation that is going on, etc.
+
 
 2. Recurrent Neural Network (RNN)
 
@@ -386,6 +392,33 @@ There are four types of RNNs based on the number of inputs and outputs in the ne
      ![image](https://github.com/thanhite7/GR1/assets/96159427/fda71896-95e1-4f7e-8ba1-66bb3d06d416)
 
 
+Advantages and Disadvantages of Recurrent Neural Network
+
+- Advantages:
+  
+   - An RNN remembers each and every piece of information through time. It is useful in time series prediction only because of the feature to remember previous inputs as well. This is called Long Short Term Memory.
+     
+   - Recurrent neural networks are even used with convolutional layers to extend the effective pixel neighborhood.
+
+- Disadvantages:
+
+   - Gradient vanishing and exploding problems.
+     
+   - Training an RNN is a very difficult task.
+     
+   - It cannot process very long sequences if using tanh or relu as an activation function.
+
+- Applications of Recurrent Neural Network
+  
+   - Language Modelling and Generating Text
+     
+   - Speech Recognition
+     
+   - Machine Translation
+     
+   - Image Recognition, Face detection
+     
+   - Time series Forecasting
 
 
 
