@@ -202,11 +202,36 @@ The “points” mentioned above are called means because they are the mean valu
 ![image](https://github.com/thanhite7/GR1/assets/96159427/fa70f8c7-7cfc-4cd0-bc71-11a4539acf84)
 
 
+- Attribute Selection Measures:
+  
+   - Construction of Decision Tree: A tree can be “learned” by splitting the source set into subsets based on Attribute Selection Measures. Attribute selection measure (ASM) is a criterion used in decision tree algorithms to evaluate the usefulness of different attributes for splitting a dataset. The goal of ASM is to identify the attribute that will create the most homogeneous subsets of data after the split, thereby maximizing the information gain. This process is repeated on each derived subset in a recursive manner called recursive partitioning. The recursion is completed when the subset at a node all has the same value of the target variable, or when splitting no longer adds value to the predictions. The construction of a decision tree classifier does not require any domain knowledge or parameter setting and therefore is appropriate for exploratory knowledge discovery. Decision trees can handle high-dimensional data.
 
+   - Entropy: is the measure of the degree of randomness or uncertainty in the dataset. In the case of classifications, It measures the randomness based on the distribution of class labels in the dataset.
 
+The entropy for a subset of the original dataset having K number of classes for the ith node can be defined as:
 
+![image](https://github.com/thanhite7/GR1/assets/96159427/d17afa70-7ec5-4c6a-a154-c877ac239d2a)
 
+Where:
 
+- S is the dataset sample.
+  
+- k is the particular class from K classes
+  
+- p(k) is the proportion of the data points that belong to class k to the total number of data points in dataset sample S. 
+
+- Important points related to Entropy:
+  
+   - The entropy is 0 when the dataset is completely homogeneous, meaning that each instance belongs to the same class. It is the lowest entropy indicating no uncertainty in the dataset sample.
+     
+   - when the dataset is equally divided between multiple classes, the entropy is at its maximum value. Therefore, entropy is highest when the distribution of class labels is even, indicating maximum uncertainty in the dataset sample.
+     
+   - Entropy is used to evaluate the quality of a split. The goal of entropy is to select the attribute that minimizes the entropy of the resulting subsets, by splitting the dataset into more homogeneous subsets with respect to the class labels.
+     
+   - The highest information gain attribute is chosen as the splitting criterion (i.e., the reduction in entropy after splitting on that attribute), and the process is repeated recursively to build the decision tree.
+     
+- Gini Impurity or index:
+Gini Impurity is a score that evaluates how accurate a split is among the classified groups. The Gini Impurity evaluates a score in the range between 0 and 1, where 0 is when all observations belong to one class, and 1 is a random distribution of the elements within classes. In this case, we want to have a Gini index score as low as possible. Gini Index is the evaluation metric we shall use to evaluate our Decision Tree Model.
 
 
 
