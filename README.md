@@ -233,5 +233,27 @@ Where:
 - Gini Impurity or index:
 Gini Impurity is a score that evaluates how accurate a split is among the classified groups. The Gini Impurity evaluates a score in the range between 0 and 1, where 0 is when all observations belong to one class, and 1 is a random distribution of the elements within classes. In this case, we want to have a Gini index score as low as possible. Gini Index is the evaluation metric we shall use to evaluate our Decision Tree Model.
 
+![image](https://github.com/thanhite7/GR1/assets/96159427/03bad557-5d2b-44db-b4a6-49a19bf2bd5c)
 
+- Information Gain:
+Information gain measures the reduction in entropy or variance that results from splitting a dataset based on a specific property. It is used in decision tree algorithms to determine the usefulness of a feature by partitioning the dataset into more homogeneous subsets with respect to the class labels or target variable. The higher the information gain, the more valuable the feature is in predicting the target variable. 
 
+The information gain of an attribute A, with respect to a dataset S, is calculated as follows:
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/45b6ea90-03d0-4e32-aac6-aa1676f2aefe)
+
+where
+
+- A is the specific attribute or class label
+  
+- |H| is the entropy of dataset sample S
+  
+- |HV| is the number of instances in the subset S that have the value v for attribute A
+
+==> The algorithm repeats this action for every subsequent node by comparing its attribute values with those of the sub-nodes and continuing the process further. It repeats until it reaches the leaf node of the tree. The complete mechanism can be better explained through the algorithm given below.
+
+Step-1: Begin the tree with the root node, says S, which contains the complete dataset.
+Step-2: Find the best attribute in the dataset using Attribute Selection Measure (ASM).
+Step-3: Divide the S into subsets that contains possible values for the best attributes.
+Step-4: Generate the decision tree node, which contains the best attribute.
+Step-5: Recursively make new decision trees using the subsets of the dataset created in step -3. Continue this process until a stage is reached where you cannot further classify the nodes and called the final node as a leaf nodeClassification and Regression Tree algorithm.
