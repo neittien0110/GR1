@@ -250,10 +250,99 @@ where
   
 - |HV| is the number of instances in the subset S that have the value v for attribute A
 
-==> The algorithm repeats this action for every subsequent node by comparing its attribute values with those of the sub-nodes and continuing the process further. It repeats until it reaches the leaf node of the tree. The complete mechanism can be better explained through the algorithm given below.
+ - The algorithm repeats this action for every subsequent node by comparing its attribute values with those of the sub-nodes and continuing the process further. It repeats until it reaches the leaf node of the tree. The complete mechanism can be better explained through the algorithm given below.
 
 Step-1: Begin the tree with the root node, says S, which contains the complete dataset.
+
 Step-2: Find the best attribute in the dataset using Attribute Selection Measure (ASM).
+
 Step-3: Divide the S into subsets that contains possible values for the best attributes.
+
 Step-4: Generate the decision tree node, which contains the best attribute.
+
 Step-5: Recursively make new decision trees using the subsets of the dataset created in step -3. Continue this process until a stage is reached where you cannot further classify the nodes and called the final node as a leaf nodeClassification and Regression Tree algorithm.
+
+- Advantages of the Decision Tree:
+
+    - It is simple to understand as it follows the same process which a human follow while making any decision in real-life.
+    
+    - It can be very useful for solving decision-related problems.
+      
+    - It helps to think about all the possible outcomes for a problem.
+      
+    - There is less requirement of data cleaning compared to other algorithms.
+      
+- Disadvantages of the Decision Tree:
+
+    - The decision tree contains lots of layers, which makes it complex.
+      
+    - It may have an overfitting issue, which can be resolved using the Random Forest algorithm.
+      
+    - For more class labels, the computational complexity of the decision tree may increase.
+ 
+IV. Basic Deep Learning algorithms
+
+1. Artificial Neural Networks
+2. 
+Artificial Neural Networks contain artificial neurons which are called units. These units are arranged in a series of layers that together constitute the whole Artificial Neural Network in a system. A layer can have only a dozen units or millions of units as this depends on how the complex neural networks will be required to learn the hidden patterns in the dataset.
+
+Commonly, Artificial Neural Network has an input layer, an output layer as well as hidden layers. The input layer receives data from the outside world which the neural network needs to analyze or learn about. Then this data passes through one or multiple hidden layers that transform the input into data that is valuable for the output layer. Finally, the output layer provides an output in the form of a response of the Artificial Neural Networks to input data provided. 
+
+In the majority of neural networks, units are interconnected from one layer to another. Each of these connections has weights that determine the influence of one unit on another unit. As the data transfers from one unit to another, the neural network learns more and more about the data which eventually results in an output from the output layer. 
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/3ff8e3e3-8f32-4462-93bb-5ff7241d5fd3)
+
+The structures and operations of human neurons serve as the basis for artificial neural networks. It is also known as neural networks or neural nets. The input layer of an artificial neural network is the first layer, and it receives input from external sources and releases it to the hidden layer, which is the second layer. In the hidden layer, each neuron receives input from the previous layer neurons, computes the weighted sum, and sends it to the neurons in the next layer. These connections are weighted means effects of the inputs from the previous layer are optimized more or less by assigning different-different weights to each input and it is adjusted during the training process by optimizing these weights for improved model performance. 
+
+- Compare Biological Neuron vs Artificial Neuron
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/c81834c4-62b4-4b3d-b211-9efa71ddcd51)
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/8c069a21-5d6d-4368-9519-a125b8db8998)
+
+- Types of Artificial Neural Networks
+   •	Feedforward Neural Network
+   •	Convolutional Neural Network
+   •	Modular Neural Network
+   •	Radial basis function Neural Network
+   •	Recurrent Neural Network:
+
+Artificial Neural Networks (ANNs) have several advantages and disadvantages. 
+
+- Advantages of ANN:
+   •	Non-linearity: ANNs can model complex non-linear relationships between inputs and outputs, allowing them to solve problems that are not easily solvable with traditional linear models.
+
+   •	Adaptability: ANNs can adapt their internal parameters based on the available data, allowing them to learn and improve their performance over time.
+  
+   •	Parallel processing: ANNs can perform computations in parallel, which enables them to process large amounts of data quickly and efficiently.
+  
+   •	Fault tolerance: ANNs can continue to function even if some of their components fail or are damaged. They can still provide reasonable outputs, making them robust in real-world applications.
+  
+   •	Feature extraction: ANNs can automatically learn and extract relevant features from raw data, eliminating the need for manual feature engineering.
+  
+
+- Disadvantages of ANN:
+  
+   •	Black box nature: ANNs often operate as "black boxes," meaning they provide accurate predictions but offer limited interpretability. Understanding the underlying reasoning behind their decisions can be challenging.
+  
+   •	Overfitting: ANNs are prone to overfitting, especially when the training data is limited or noisy. Overfitting occurs when the network becomes too specialized in the training data and performs poorly on unseen data.
+  
+   •	Computational complexity: Deep ANNs with many layers and neurons can be computationally expensive, requiring substantial computational resources and time for training and inference.
+  
+   •	Data requirements: ANNs typically require large amounts of labeled data to achieve good performance. Acquiring and labeling such datasets can be time-consuming and expensive.
+  
+   •	Hyperparameter tuning: ANNs have several hyperparameters that need to be carefully tuned to achieve optimal performance. Finding the right combination of hyperparameters can be a challenging and iterative process.
+
+
+
+Applications of Artificial Neural Networks
+
+1.	Social Media: Artificial Neural Networks are used heavily in Social Media. For example, let’s take the ‘People you may know’ feature on Facebook that suggests people that you might know in real life so that you can send them friend requests. Well, this magical effect is achieved by using Artificial Neural Networks that analyze your profile, your interests, your current friends, and also their friends and various other factors to calculate the people you might potentially know. Another common application of Machine Learning in social media is facial recognition. This is done by finding around 100 reference points on the person’s face and then matching them with those already available in the database using convolutional neural networks. 
+
+
+2.	Marketing and Sales: When you log onto E-commerce sites like Amazon and Flipkart, they will recommend your products to buy based on your previous browsing history. Similarly, suppose you love Pasta, then Zomato, Swiggy, etc. will show you restaurant recommendations based on your tastes and previous order history. This is true across all new-age marketing segments like Book sites, Movie services, Hospitality sites, etc. and it is done by implementing personalized marketing. This uses Artificial Neural Networks to identify the customer likes, dislikes, previous shopping history, etc., and then tailor the marketing campaigns accordingly. 
+
+3.	Healthcare: Artificial Neural Networks are used in Oncology to train algorithms that can identify cancerous tissue at the microscopic level at the same accuracy as trained physicians. Various rare diseases may manifest in physical characteristics and can be identified in their premature stages by using Facial Analysis on the patient photos. So the full-scale implementation of Artificial Neural Networks in the healthcare environment can only enhance the diagnostic abilities of medical experts and ultimately lead to the overall improvement in the quality of medical care all over the world. 
+
+4.	Personal Assistants: I am sure you all have heard of Siri, Alexa, Cortana, etc., and also heard them based on the phones you have!!! These are personal assistants and an example of speech recognition that uses Natural Language Processing to interact with the users and formulate a response accordingly. Natural Language Processing uses artificial neural networks that are made to handle many tasks of these personal assistants such as managing the language syntax, semantics, correct speech, the conversation that is going on, etc.
+
