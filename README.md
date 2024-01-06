@@ -5,6 +5,13 @@ Nguyễn Tiến Thành - 20215243
 
 Concept of Machine Learning & Deep Learning algorithms
 
+Outline:
+I. Introduction of Machine Leaning & Deep Learning
+II. Type of Machine Learning algorithms
+III. Basic Machine Learning algorithms
+IV.  Basic Deep Learning algorithms
+V. References
+
 I. A brief of Machine Learning & Deep Learning
 
 1. Machine Learning (ML):
@@ -116,6 +123,7 @@ From the formula above we can say that when p = 2 then it is the same as the for
 
 
 - Applications of the KNN Algorithm:
+  
    - Data Preprocessing – While dealing with any Machine Learning problem we first perform the EDA part in which if we find that the data contains missing values then there are multiple imputation methods are available as well. One of such method is KNN Imputer which is quite effective ad generally used for sophisticated imputation methodologies.
      
    - Pattern Recognition – KNN algorithms work very well if you have trained a KNN algorithm using the MNIST dataset and then performed the evaluation process then you must have come across the fact that the accuracy is too high.
@@ -459,4 +467,10 @@ Advantages and Disadvantages of Recurrent Neural Network
    - Time series Forecasting
 
 
+V. References
 
+- https://www.geeksforgeeks.org/machine-learning/
+
+- https://www.kaggle.com/datasets
+
+- https://machinelearningcoban.com/
