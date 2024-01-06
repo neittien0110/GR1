@@ -391,6 +391,34 @@ There are four types of RNNs based on the number of inputs and outputs in the ne
 
      ![image](https://github.com/thanhite7/GR1/assets/96159427/fda71896-95e1-4f7e-8ba1-66bb3d06d416)
 
+- RNN architecture
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/44e66d64-688b-43b6-95a8-c0891cc6c554)
+
+- How does RNN work?
+The Recurrent Neural Network consists of multiple fixed activation function units, one for each time step. Each unit has an internal state which is called the hidden state of the unit. This hidden state signifies the past knowledge that the network currently holds at a given time step. This hidden state is updated at every time step to signify the change in the knowledge of the network about the past. The hidden state is updated using the following recurrence relation.
+
+-The formula for calculating the current state:
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/a9705aa1-0608-4be6-80d2-fb3cb235c314)
+
+where,
+
+   - ht -> current state
+     
+   - ht-1 -> previous state
+     
+   - xt -> input state
+     
+Formula for applying Activation function(tanh)
+
+h_t = tanh(W_{hh}h_{t-1}+W_{xh}x_t)  
+
+where,
+
+   - whh -> weight at recurrent neuron
+
+   - wxh -> weight at input neuron
 
 Advantages and Disadvantages of Recurrent Neural Network
 
