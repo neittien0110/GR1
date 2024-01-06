@@ -412,13 +412,23 @@ where,
      
 Formula for applying Activation function(tanh)
 
-h_t = tanh(W_{hh}h_{t-1}+W_{xh}x_t)  
+![image](https://github.com/thanhite7/GR1/assets/96159427/795c4e34-7fe0-488e-8f91-77ddb3a05986)
 
 where,
 
    - whh -> weight at recurrent neuron
 
    - wxh -> weight at input neuron
+
+The formula for calculating output:
+
+![image](https://github.com/thanhite7/GR1/assets/96159427/e61767a8-5c89-417a-a412-a6427f92ad4c)
+
+
+   - Yt -> output
+   - Why -> weight at output layer
+
+
 
 Advantages and Disadvantages of Recurrent Neural Network
 
