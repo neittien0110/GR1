@@ -5,11 +5,19 @@ Nguyễn Tiến Thành - 20215243
 
 Concept of Machine Learning & Deep Learning algorithms
 
+
 Outline:
+
+
 I. Introduction of Machine Leaning & Deep Learning
+
+
 II. Type of Machine Learning algorithms
+
 III. Basic Machine Learning algorithms
+
 IV.  Basic Deep Learning algorithms
+
 V. References
 
 I. A brief of Machine Learning & Deep Learning
